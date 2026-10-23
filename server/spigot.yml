@@ -26,7 +26,6 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   item-dirty-ticks: 20
   bungeecord: false
@@ -35,6 +34,7 @@ settings:
   filter-creative-items: true
   user-cache-size: 1000
   int-cache-limit: 1024
+  moved-wrongly-threshold: 0.0625
   moved-too-quickly-threshold: 100.0
 commands:
   tab-complete: 0
@@ -64,7 +64,6 @@ advancements:
 world-settings:
   default:
     verbose: true
-    mob-spawn-range: 4
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -76,6 +75,7 @@ world-settings:
       netherwart-modifier: 100
       vine-modifier: 100
       cocoa-modifier: 100
+    mob-spawn-range: 4
     entity-activation-range:
       animals: 32
       monsters: 32
