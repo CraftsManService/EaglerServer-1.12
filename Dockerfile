@@ -10,5 +10,7 @@ COPY . .
 # Expose your proxy port 8081 internally
 EXPOSE 8081
 
-# Jump into bungee, run proxy in the background, then jump into server and run server.jar
-CMD sh -c "cd bungee && java -jar bungee.jar & cd /app/server && java -jar server.jar"
+# Optimized RAM allocation for Render's 512MB limit:
+# Bungee proxy max RAM: 128MB (-Xmx128M)
+# Minecraft server max RAM: 256MB (-Xmx256M)
+CMD sh -c "cd bungee && java -Xmx128M -jar bungee.jar & cd /app/server && java -Xmx256M -jar server.jar"
