@@ -1,5 +1,5 @@
-# Use an official lightweight Java runtime
-FROM openjdk:17-slim
+# Use an actively maintained, official lightweight Java runtime
+FROM eclipse-temurin:17-jre-alpine
 
 # Set the working directory inside the server container
 WORKDIR /app
