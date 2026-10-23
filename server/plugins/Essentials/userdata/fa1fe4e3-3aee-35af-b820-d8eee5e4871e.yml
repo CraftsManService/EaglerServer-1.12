@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 163.116.253.154
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1792677787849
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1792680751021
+  login: 1792680736464
+money: '0'
+last-account-name: ddtx_REBORN
+lastlocation:
+  world: e802cc38-6679-4f32-ab66-2a45b8f28d76
+  world-name: world
+  x: -529.2958990003373
+  y: 42.0
+  z: 93.35681360275942
+  yaw: 116.54994201660156
+  pitch: 17.399993896484375
+logoutlocation:
+  world: e802cc38-6679-4f32-ab66-2a45b8f28d76
+  world-name: world
+  x: -536.1166283586781
+  y: 67.0
+  z: 141.80181638856234
+  yaw: 33.900230407714844
+  pitch: 7.350005149841309
