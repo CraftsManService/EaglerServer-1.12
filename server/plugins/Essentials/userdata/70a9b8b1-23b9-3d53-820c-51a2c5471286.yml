@@ -1,0 +1,34 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 163.116.129.116
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1792696350301
+  login: 1792696272351
+  kits:
+    stone: 1792694759328
+    food: 1792694766809
+money: '0'
+last-account-name: DylThe23es
+logoutlocation:
+  world: d2d72f5e-93b6-4b1d-8f78-14e15f649d06
+  world-name: world_the_end
+  x: -19.770062481645393
+  y: 62.0
+  z: 18.119065965662607
+  yaw: -23.549959182739258
+  pitch: -11.850003242492676

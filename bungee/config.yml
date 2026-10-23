@@ -11,8 +11,8 @@ listeners:
   priorities:
   - lobby
   bind_local_address: false
-  host: 127.0.0.1:25577
-  max_players: 1
+  host: 0.0.0.0:25577
+  max_players: 7
   tab_size: 60
   force_default_server: true
 remote_ping_cache: -1
@@ -33,10 +33,10 @@ server_connect_timeout: 5000
 timeout: 30000
 stats: 614623bd-e602-4a2e-b09d-0acb68d88c3e
 player_limit: -1
-ip_forward: false
+ip_forward: true
 groups: {}
 remote_ping_timeout: 5000
-connection_throttle: 4000
+connection_throttle: -1
 log_commands: false
 prevent_proxy_connections: false
 online_mode: false
@@ -46,9 +46,9 @@ disabled_commands:
 servers:
   lobby:
     motd: 'lobby'
-    address: localhost:25565
+    address: localhost:8081
     restricted: false
   Civilisations:
-    motd: 'Chaoscraft'
+    motd: 'ChaoticSmp'
     address: 95.217.198.48:20923 
     restricted: false

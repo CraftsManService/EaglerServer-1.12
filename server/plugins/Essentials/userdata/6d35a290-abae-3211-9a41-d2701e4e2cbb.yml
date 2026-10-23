@@ -1,0 +1,51 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 163.116.253.43
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1792679172800
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1792683201070
+  login: 1792682986082
+  kits:
+    stone: 1792678593638
+    food: 1792679143937
+money: '0'
+last-account-name: Chinooo
+logoutlocation:
+  world: e802cc38-6679-4f32-ab66-2a45b8f28d76
+  world-name: world
+  x: 587.2820033286763
+  y: 75.0
+  z: 301.68544983949596
+  yaw: -83.54974365234375
+  pitch: 3.2999987602233887
+lastlocation:
+  world: e802cc38-6679-4f32-ab66-2a45b8f28d76
+  world-name: world
+  x: -108.2535170824888
+  y: 70.0
+  z: 493.8640685652232
+  yaw: -132.90008544921875
+  pitch: 21.899993896484375
+homes:
+  home:
+    world: e802cc38-6679-4f32-ab66-2a45b8f28d76
+    world-name: world
+    x: 349.0395101275593
+    y: 105.0
+    z: 839.5077250603428
+    yaw: 16.200265884399414
+    pitch: 53.54999923706055
