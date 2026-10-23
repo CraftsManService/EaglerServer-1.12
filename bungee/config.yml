@@ -46,7 +46,7 @@ disabled_commands:
 servers:
   lobby:
     motd: 'lobby'
-    address: localhost:8081
+    address: localhost:7860
     restricted: false
   Civilisations:
     motd: 'ChaoticSmp'
